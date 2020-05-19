@@ -1,0 +1,47 @@
+.limiter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.form {
+  width: 450px;
+}
+
+body{
+background: rgba(252,234,187,1);
+background: -moz-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(255,198,54,1) 51%, rgba(252,205,77,1) 51%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,1)), color-stop(51%, rgba(255,198,54,1)), color-stop(51%, rgba(252,205,77,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(255,198,54,1) 51%, rgba(252,205,77,1) 51%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(255,198,54,1) 51%, rgba(252,205,77,1) 51%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(252,234,187,1) 0%, rgba(255,198,54,1) 51%, rgba(252,205,77,1) 51%, rgba(251,223,147,1) 100%);
+background: linear-gradient(135deg, rgba(252,234,187,1) 0%, rgba(255,198,54,1) 51%, rgba(252,205,77,1) 51%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );
+}
+
+h1{
+  font-family: 'Courier Prime', monospace;
+  font-size: 45px;
+  text-align: center;
+}
+
+.a{
+  float: left;
+  font-size: 11px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.b{
+  float: right;
+  font-size: 11px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.derecho{
+  font-size:0.9vw;
+  text-align: right;
+  margin-top: -18px;
+  font-family: 'Courier Prime', monospace;
+}
